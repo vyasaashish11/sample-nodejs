@@ -23,7 +23,7 @@ pipeline {
         AWS_ACCESS_KEY_ID = AKIA5YSPXCQHNIKJVDMW ('aws-access-key-id')
         AWS_SECRET_ACCESS_KEY = H9v8TGIA/AsXgYj912o7xD/s/g8XuYxVOCKJU+5I ('aws-secret-access-key')
         AWS_REGION = 'ap-south-1' // Replace with your desired region
-        EC2_INSTANCE_ID = 'your-instance-id' // Replace with your EC2 instance ID
+        EC2_INSTANCE_ID = 'i-06851d9489ae8dfa6' // Replace with your EC2 instance ID
         S3_BUCKET_NAME = 'bucketfortoday' // Replace with your S3 bucket name
       }
       
