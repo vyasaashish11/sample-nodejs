@@ -20,8 +20,8 @@ pipeline {
     stage('Deploy') {
       environment {
         // Set up environment variables required for deployment
-        AWS_ACCESS_KEY_ID = AKIA5YSPXCQHARQGO7KI
-        AWS_SECRET_ACCESS_KEY = 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
+        AWS_ACCESS_KEY_ID = 'AKIA5YSPXCQHARQGO7KI'
+        AWS_SECRET_ACCESS_KEY = '7ePBRQtwaf4q0cV5ytnzn/R1uPR8wcOa1cZtKmuq'
         AWS_REGION = 'ap-south-1' // Replace with your desired region
         EC2_INSTANCE_ID = 'i-06851d9489ae8dfa6' // Replace with your EC2 instance ID
         S3_BUCKET_NAME = 'bucketfortoday' // Replace with your S3 bucket name
